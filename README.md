@@ -32,7 +32,7 @@ Uma aplicação REST API desenvolvida em **Spring Boot** para gerenciar eventos 
 ### Passo 1: Clone o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/taskmanager.git
+git clone https://github.com/juaoo99/taskmanager_java.git
 cd taskmanager
 ```
 
@@ -42,6 +42,12 @@ O Maven vai baixar automaticamente todas as dependências do `pom.xml`:
 
 ```bash
 mvn clean install
+```
+
+ou
+
+```bash
+./mvnw clean install
 ```
 
 **Isso irá:**
@@ -59,6 +65,12 @@ mvn clean install
 
 ```bash
 mvn spring-boot:run
+```
+
+ou
+
+```bash
+./mvn spring-boot:run
 ```
 
 **Opção B: Via arquivo JAR (Recomendado para produção)**
